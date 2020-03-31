@@ -1,0 +1,15 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+  <div class="home-container">
+    {% for image in media_images %}
+      <div class="home-single-div">
+          <p class='paragraph-image paragraph-image-name'>{{image.image_name}}</p>
+          <p class='paragraph-image paragraph-image-description'>{{image.image_description}}</p>
+          <img  height="97px" class='home-image' src='{{image.image_image.url}}'>
+          
+      </div>
+      {% endfor %}
+  </div>
+
+{% endblock content %}

@@ -1,0 +1,23 @@
+.profile-content-and-manage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* background-color: red; */
+}
+p.profile-paragraph-image{
+    margin: 0;
+    padding: 0;
+    
+}
+.profile-manage-div{
+    font-weight: bold;
+    font-size: 18px;
+}
+.profile-image{
+    margin-top: 2vh;
+}
+.profile-paragraph-image-delete{
+    display: inline;
+    color: red;
+    
+}
